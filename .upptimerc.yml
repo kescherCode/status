@@ -65,7 +65,7 @@ status-website:
   logoUrl: https://www.kescher.at/android-chrome-192x192.png
   name: Status - kescher.at
   introTitle: "Status page for **[kescher.at](https://www.kescher.at)** and related services"
-  introMessage: "This status page is powered by [Upptime](https://github.com/upptime/upptime). Please note: Services are currently being migrated to a different server, and might be down for some time during the process."
+  introMessage: "This status page is powered by [Upptime](https://github.com/upptime/upptime)."
   navbar:
     - title: Status
       href: /
