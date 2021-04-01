@@ -1,39 +1,83 @@
 # Change these first
-owner: upptime # Your GitHub organization or username
-repo: upptime # Your GitHub repository name
+owner: kescherCode # Your GitHub username
+repo: status # Your GitHub repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Test for HEAD
+  - name: "kescher.at"
+    url: https://www.kescher.at
+    icon: https://www.kescher.at/favicon-194x194.png
+    assignees:
+      - kescherCode
+  - name: "kescherCloud"
+    url: https://cloud.kescher.at/status.php
+    icon: https://cloud.kescher.at/apps/theming/favicon
+    assignees:
+      - kescherCode
+  - name: "kescherGit"
+    url: https://git.kescher.at/api/v1/version
+    icon: https://git.kescher.at/img/gitea-lg.png
+    assignees:
+      - kescherCode
+  - name: "Magnetico"
+    url: https://magnetico.kescher.at/api/v0.1/torrents/
+    expectedStatusCodes:
+      - 404
+    assignees:
+      - kescherCode
+  - name: "Doggos backend - Woods Cross"
+    url: https://doggos.kescher.at/wc-lazy-lounge.mjpg
+    icon: https://www.kescher.at/favicon-194x194.png
     method: HEAD
-    url: https://www.google.com
-  - name: Secret Site
-    url: $SECRET_SITE
-  - name: TCP ping
-    url: 1.1.1.1
+    assignees:
+      - kescherCode
+  - name: "Doggos frontend"
+    url: https://doggos.kescher.at
+    icon: https://www.kescher.at/favicon-194x194.png
+    assignees:
+      - kescherCode
+  - name: "Doggos BETA frontend"
+    url: https://beta.doggos.kescher.at
+    icon: https://www.kescher.at/favicon-194x194.png
+    assignees:
+      - kescherCode
+  - name: "Doggos backend - Salt Lake"
+    url: https://doggos.kescher.at/sl-small-dog-patio.mjpg
+    icon: https://www.kescher.at/favicon-194x194.png
+    method: HEAD
+    assignees:
+      - kescherCode
+  - name: "Matrix"
+    url: https://matrix.kescher.at
+    icon: https://www.kescher.at/favicon-194x194.png
+    assignees:
+      - kescherCode
+  - name: "arch4edu mirror"
+    url: https://arch4edu.mirror.kescher.at/lastupdate
+    assignees:
+      - kescherCode
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
+  cname: status.kescher.at
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://www.kescher.at/android-chrome-192x192.png
+  name: Status - kescher.at
+  introTitle: "Status page for **[kescher.at](https://www.kescher.at)** and related services"
+  introMessage: "This status page is powered by [Upptime](https://github.com/upptime/upptime). Please note: Services are currently being migrated to a different server, and might be down for some time during the process."
   navbar:
     - title: Status
       href: /
+    - title: kescher.at
+      href: https://www.kescher.at
+    - title: Telegram
+      href: https://t.me/kescherStatus
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+# Custom section
+user-agent: okaymate
