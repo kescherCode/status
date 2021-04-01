@@ -56,6 +56,12 @@ sites:
     url: https://arch4edu.mirror.kescher.at/lastupdate
     assignees:
       - kescherCode
+  - name: "Monero node"
+    url: unova.kescher.at
+    port: 18081
+    check: "tcp-ping"
+    assignees:
+      - kescherCode
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
