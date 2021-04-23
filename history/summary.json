@@ -76,9 +76,9 @@
     "url": "https://doggos.kescher.at/wc-lazy-lounge.mjpg",
     "icon": "https://www.kescher.at/favicon-194x194.png",
     "slug": "doggos-backend-woods-cross",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -87,7 +87,9 @@
     "timeWeek": 1663,
     "timeMonth": 1675,
     "timeYear": 1675,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-04-23": 0
+    }
   },
   {
     "name": "Doggos frontend",
@@ -130,9 +132,9 @@
     "url": "https://doggos.kescher.at/sl-small-dog-patio.mjpg",
     "icon": "https://www.kescher.at/favicon-194x194.png",
     "slug": "doggos-backend-salt-lake",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -141,7 +143,9 @@
     "timeWeek": 1967,
     "timeMonth": 3003,
     "timeYear": 3003,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-04-23": 0
+    }
   },
   {
     "name": "Matrix",
