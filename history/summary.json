@@ -76,19 +76,19 @@
     "url": "https://doggos.kescher.at/wc-lazy-lounge.mjpg",
     "icon": "https://www.kescher.at/favicon-194x194.png",
     "slug": "doggos-backend-woods-cross",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1675,
-    "timeDay": 1309,
-    "timeWeek": 1663,
-    "timeMonth": 1675,
-    "timeYear": 1675,
+    "time": 1668,
+    "timeDay": 1379,
+    "timeWeek": 1657,
+    "timeMonth": 1668,
+    "timeYear": 1668,
     "dailyMinutesDown": {
-      "2021-04-23": 0
+      "2021-04-23": 1
     }
   },
   {
@@ -132,19 +132,19 @@
     "url": "https://doggos.kescher.at/sl-small-dog-patio.mjpg",
     "icon": "https://www.kescher.at/favicon-194x194.png",
     "slug": "doggos-backend-salt-lake",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.93%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 3003,
-    "timeDay": 2329,
-    "timeWeek": 1967,
-    "timeMonth": 3003,
-    "timeYear": 3003,
+    "time": 2990,
+    "timeDay": 2012,
+    "timeWeek": 1892,
+    "timeMonth": 2990,
+    "timeYear": 2990,
     "dailyMinutesDown": {
-      "2021-04-23": 0
+      "2021-04-23": 1
     }
   },
   {
