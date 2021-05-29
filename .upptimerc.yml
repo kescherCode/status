@@ -56,6 +56,10 @@ sites:
     url: https://arch4edu.mirror.kescher.at/lastupdate
     assignees:
       - kescherCode
+  - name: "arch mirror"
+    url: https://arch.mirror.kescher.at/lastupdate
+    assignees:
+      - kescherCode
   - name: "Monero node"
     url: unova.kescher.at
     port: 18081
