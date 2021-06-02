@@ -7,65 +7,49 @@ sites:
   - name: "kescher.at"
     url: https://www.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
-    assignees:
-      - kescherCode
   - name: "kescherCloud"
     url: https://cloud.kescher.at/status.php
     icon: https://cloud.kescher.at/apps/theming/favicon
-    assignees:
-      - kescherCode
   - name: "kescherGit"
     url: https://git.kescher.at/api/v1/version
     icon: https://git.kescher.at/img/gitea-lg.png
-    assignees:
-      - kescherCode
   - name: "Magnetico"
     url: https://magnetico.kescher.at/api/v0.1/torrents/
     expectedStatusCodes:
       - 404
-    assignees:
-      - kescherCode
   - name: "Doggos backend - Woods Cross"
     url: https://doggos.kescher.at/wc-lazy-lounge.mjpg
     icon: https://www.kescher.at/favicon-194x194.png
     method: HEAD
-    assignees:
-      - kescherCode
   - name: "Doggos frontend"
     url: https://doggos.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
-    assignees:
-      - kescherCode
   - name: "Doggos BETA frontend"
     url: https://beta.doggos.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
-    assignees:
-      - kescherCode
   - name: "Doggos backend - Salt Lake"
     url: https://doggos.kescher.at/sl-small-dog-patio.mjpg
     icon: https://www.kescher.at/favicon-194x194.png
     method: HEAD
-    assignees:
-      - kescherCode
   - name: "Matrix"
     url: https://matrix.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
-    assignees:
-      - kescherCode
-  - name: "arch4edu mirror"
+  - name: "arch4edu mirror https"
     url: https://arch4edu.mirror.kescher.at/lastupdate
-    assignees:
-      - kescherCode
-  - name: "arch mirror"
+  - name: "arch4edu mirror rsync"
+    url: arch4edu.mirror.kescher.at
+    port: 873
+    check: "tcp-ping"
+  - name: "arch mirror https"
     url: https://arch.mirror.kescher.at/lastupdate
-    assignees:
-      - kescherCode
+  - name: "arch mirror rsync"
+    url: arch.mirror.kescher.at
+    port: 873
+    check: "tcp-ping"
   - name: "Monero node"
     url: unova.kescher.at
     port: 18081
     check: "tcp-ping"
-    assignees:
-      - kescherCode
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
