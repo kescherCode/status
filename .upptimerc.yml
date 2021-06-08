@@ -33,12 +33,12 @@ sites:
     url: https://doggos.kescher.at/sl-small-dog-patio.mjpg
     icon: https://www.kescher.at/favicon-194x194.png
     method: HEAD
-    maxResponseTime: 5000
+    maxResponseTime: 6000
   - name: "Doggos backend - Woods Cross"
     url: https://doggos.kescher.at/wc-lazy-lounge.mjpg
     icon: https://www.kescher.at/favicon-194x194.png
     method: HEAD
-    maxResponseTime: 5000
+    maxResponseTime: 6000
   - name: "Matrix"
     url: https://matrix.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
