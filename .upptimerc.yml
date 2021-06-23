@@ -34,11 +34,12 @@ sites:
     icon: https://www.kescher.at/favicon-194x194.png
     method: HEAD
     maxResponseTime: 6000
-  - name: "Doggos backend - Woods Cross"
-    url: https://doggos.kescher.at/wc-lazy-lounge.mjpg
-    icon: https://www.kescher.at/favicon-194x194.png
-    method: HEAD
-    maxResponseTime: 6000
+# The Woods Cross location has closed, therefore, the cams are down until Utah Dog Park reopens :(
+#  - name: "Doggos backend - Woods Cross"
+#    url: https://doggos.kescher.at/wc-lazy-lounge.mjpg
+#    icon: https://www.kescher.at/favicon-194x194.png
+#    method: HEAD
+#    maxResponseTime: 6000
   - name: "Matrix"
     url: https://matrix.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
