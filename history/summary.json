@@ -25,10 +25,10 @@
     "url": "https://cloud.kescher.at/status.php",
     "icon": "https://cloud.kescher.at/apps/theming/favicon",
     "slug": "kescher-cloud",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.87%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 678,
@@ -37,6 +37,7 @@
     "timeMonth": 622,
     "timeYear": 678,
     "dailyMinutesDown": {
+      "2021-07-30": 2,
       "2021-06-22": 9,
       "2021-05-20": 3,
       "2021-05-17": 10
@@ -47,10 +48,10 @@
     "url": "https://git.kescher.at/api/v1/version",
     "icon": "https://git.kescher.at/img/gitea-lg.png",
     "slug": "kescher-git",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 569,
@@ -59,6 +60,7 @@
     "timeMonth": 548,
     "timeYear": 569,
     "dailyMinutesDown": {
+      "2021-07-30": 2,
       "2021-05-20": 3,
       "2021-05-17": 10
     }
@@ -89,10 +91,10 @@
     "url": "https://beta.doggos.kescher.at",
     "icon": "https://www.kescher.at/favicon-194x194.png",
     "slug": "doggos-beta-frontend",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 548,
@@ -101,6 +103,7 @@
     "timeMonth": 555,
     "timeYear": 548,
     "dailyMinutesDown": {
+      "2021-07-30": 1,
       "2021-06-22": 6,
       "2021-05-20": 3,
       "2021-05-17": 9
@@ -111,10 +114,10 @@
     "url": "https://doggos.kescher.at/sl-small-dog-patio.mjpg",
     "icon": "https://www.kescher.at/favicon-194x194.png",
     "slug": "doggos-backend-salt-lake",
-    "status": "up",
+    "status": "down",
     "uptime": "99.88%",
-    "uptimeDay": "99.30%",
-    "uptimeWeek": "99.80%",
+    "uptimeDay": "99.23%",
+    "uptimeWeek": "99.79%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.88%",
     "time": 3222,
@@ -123,6 +126,7 @@
     "timeMonth": 2889,
     "timeYear": 3222,
     "dailyMinutesDown": {
+      "2021-07-30": 1,
       "2021-07-29": 10,
       "2021-07-24": 10,
       "2021-06-21": 9,
@@ -201,9 +205,9 @@
     "url": "https://arch.mirror.kescher.at/lastupdate",
     "icon": "https://favicons.githubusercontent.com/arch.mirror.kescher.at",
     "slug": "arch-mirror-https",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
@@ -213,6 +217,7 @@
     "timeMonth": 526,
     "timeYear": 532,
     "dailyMinutesDown": {
+      "2021-07-30": 0,
       "2021-06-22": 6
     }
   },
