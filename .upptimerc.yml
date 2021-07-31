@@ -44,6 +44,10 @@ sites:
     url: https://matrix.kescher.at
     icon: https://www.kescher.at/favicon-194x194.png
     maxResponseTime: 4000
+  - name: "PrivateBin"
+    url: https://paste.kescher.at
+    icon: https://paste.kescher.at/img/favicon-32x32.png
+    maxResponseTime: 3000
   - name: "arch4edu mirror https"
     url: https://arch4edu.mirror.kescher.at/lastupdate
     maxResponseTime: 1000
