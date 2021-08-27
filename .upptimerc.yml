@@ -51,24 +51,24 @@ sites:
   - name: "arch4edu mirror https"
     url: https://arch4edu.mirror.kescher.at/lastupdate
     maxResponseTime: 1000
-  - name: "arch4edu mirror rsync"
-    url: arch4edu.mirror.kescher.at
-    maxResponseTime: 500
-    port: 873
-    check: "tcp-ping"
+#  - name: "arch4edu mirror rsync"
+#    url: arch4edu.mirror.kescher.at
+#    maxResponseTime: 500
+#    port: 873
+#    check: "tcp-ping"
   - name: "arch mirror https"
     url: https://arch.mirror.kescher.at/lastupdate
     maxResponseTime: 1000
-  - name: "arch mirror rsync"
-    url: arch.mirror.kescher.at
-    port: 873
-    check: "tcp-ping"
-    maxResponseTime: 500
-  - name: "Monero node"
-    url: unova.kescher.at
-    port: 18081
-    check: "tcp-ping"
-    maxResponseTime: 500
+#  - name: "arch mirror rsync"
+#    url: arch.mirror.kescher.at
+#    port: 873
+#    check: "tcp-ping"
+#    maxResponseTime: 500
+#  - name: "Monero node"
+#    url: unova.kescher.at
+#    port: 18081
+#    check: "tcp-ping"
+#    maxResponseTime: 500
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
