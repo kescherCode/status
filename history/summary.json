@@ -215,24 +215,6 @@
     }
   },
   {
-    "name": "arch4edu mirror rsync",
-    "url": "arch4edu.mirror.kescher.at",
-    "icon": "https://favicons.githubusercontent.com/null",
-    "slug": "arch4edu-mirror-rsync",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 131,
-    "timeDay": 123,
-    "timeWeek": 134,
-    "timeMonth": 142,
-    "timeYear": 131,
-    "dailyMinutesDown": {}
-  },
-  {
     "name": "arch mirror https",
     "url": "https://arch.mirror.kescher.at/lastupdate",
     "icon": "https://favicons.githubusercontent.com/arch.mirror.kescher.at",
@@ -253,41 +235,5 @@
       "2021-07-30": 5,
       "2021-06-22": 6
     }
-  },
-  {
-    "name": "arch mirror rsync",
-    "url": "arch.mirror.kescher.at",
-    "icon": "https://favicons.githubusercontent.com/null",
-    "slug": "arch-mirror-rsync",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 130,
-    "timeDay": 134,
-    "timeWeek": 134,
-    "timeMonth": 142,
-    "timeYear": 130,
-    "dailyMinutesDown": {}
-  },
-  {
-    "name": "Monero node",
-    "url": "unova.kescher.at",
-    "icon": "https://favicons.githubusercontent.com/null",
-    "slug": "monero-node",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 128,
-    "timeDay": 129,
-    "timeWeek": 133,
-    "timeMonth": 141,
-    "timeYear": 128,
-    "dailyMinutesDown": {}
   }
 ]
